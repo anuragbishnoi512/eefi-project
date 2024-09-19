@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className='flex lg:flex-row flex-col xl:-mt-12 relative z-[1]'>
                     <div className='xl:pt-[182px] lg:pt-[118px] sm:pt-20 pt-14'>
                         <h1 className='text-white uppercase lg:text-custom-2xl max-w-[335px] font-medium sm:text-6xl text-5xl machina_regular sm:max-w-[463px] lg:leading-[95px] leading-[60px] sm:leading-[75px]'> Building elastic Protocol </h1>
-                        <p className='font-normal text-base leading-6 text-white max-w-[524px] md:my-6 my-4 capitalize'>
+                        <p className='font-normal text-base leading-6 text-white max-w-[524px] md:my-6 my-4         '>
                             An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions
                         </p>
                         <a href="/" className='font-bold text-lg text-white leading-5 underline'>
