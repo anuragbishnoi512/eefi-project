@@ -24,11 +24,11 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-6 absolute top-12 right-7">
-                    <span  className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
-                    <span  className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
-                    <span  className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
-                    <span  className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
-                    <span  className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
+                <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
+                <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
+                <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
+                <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
+                <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
             </div>
             <img className='absolute -top-12 left-[-124px] h-[810px] w-[80%] 2xl:block hidden' src={heroVector} alt="heroVector" />
         </div>
