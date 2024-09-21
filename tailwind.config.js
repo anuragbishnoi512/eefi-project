@@ -21,9 +21,9 @@ module.exports = {
         'custom-2xl': "85px",
       },
       colors: {
-        'light-blue': "#1643C3",
-        'off-blue': "#1643C31A",
-        'medium-blue': "#4273FF",
+        'vibrantBlue': "#1643C3",
+        'oceanBlue': "#1643C31A",
+        'skylineBlue': "#4273FF",
         'dark-blue': "#002F93",
       },
       boxShadow: {

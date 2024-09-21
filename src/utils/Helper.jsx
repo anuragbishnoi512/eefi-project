@@ -1,8 +1,8 @@
-export const NAV_ITEMS_DATA = [
+export const NAVBAR_DATA = [
     { text: "About", url: "#hero", },
     { text: "IBO Event", url: "#hero", },
-    { text: "EEFI Tokenomics", url: "#hero", },
-    { text: "Team", url: "#blog", },
+    { text: "EEFI Tokenomics", url: "#product", },
+    { text: "Team", url: "#team", },
     { text: "Partners", url: "#team", },
     { text: "Roadmap", url: "#product", },
 ];
