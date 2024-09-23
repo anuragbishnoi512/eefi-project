@@ -43,7 +43,8 @@ const Header = () => {
                         <div className={`flex flex-col lg:flex-row bg-blue-500 lg:bg-transparent items-center gap-7 lg:gap-6 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                             }`}>
                             {NAVBAR_DATA.map((items, index) => (
-                                <a key={index} href={`/${items.url}`} onClick={(e) => handleClick(e, items.url.substring(1))} className='font-medium lg:text-base text-lg leading-5 text-white duration-300 ease-linear'>{items.text}</a>
+                                <a key={index} href={`/${items.url}`} onClick={(e) => handleClick(e, items.url.substring(1))} className='font-medium lg:text-base text-lg leading-5 text-white ease-linear after:absolute after:bg-white after:h-[2px] after:w-0 after:left-[50%]
+                    after:translate-x-[-50%] hover:after:w-[100%] after:bottom-[-5px] after:rounded after:duration-200 after:ease-linear after:mx-auto relative'>{items.text}</a>
                             ))}
                             <div className="">
                                 <button
