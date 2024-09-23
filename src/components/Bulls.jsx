@@ -6,10 +6,10 @@ import bull from '../assets/images/webp/bull.webp'
 
 const Bulls = () => {
     return (
-        <div className='bg-stretch-layer bg-no-repeat bg-center bg-cover lg:pt-5 lg:h-[825px] md:h-[640px] sm:h-[556px] h-[520px] relative'>
+        <div className='bg-stretch-layer bg-no-repeat bg-center bg-cover lg:pt-8 lg:h-[825px] md:h-[640px] sm:h-[556px] h-[520px] relative'>
             <div className='container relative'>
-                <div className='flex justify-center lg:pt-0 pt-5'>
-                    <h2 className='font-plus text-white font-extrabold lg:text-custom-3xl md:text-4xl sm:text-3xl text-xl xl:leading-[62px] leading-10 md:left-8 text-center max-w-[726px]'>
+                <div className='flex justify-center lg:pt-0 pt-3'>
+                    <h2 className='font-plus text-white font-extrabold lg:text-custom-3xl md:text-4xl sm:text-3xl text-xl leading-10 md:left-8 text-center max-w-[726px]'>
                         Amplify and STRETCH GAINS
                     </h2>
                 </div>
