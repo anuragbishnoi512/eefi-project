@@ -54,8 +54,8 @@ const RoadMap = () => {
                     <span className='flex h-[99%] lg:h-full w-0.5 bg-skylineBlue absolute top-3 lg:top-0 left-0 sm:left-[169px] lg:left-1/2 lg:-translate-x-1/2'></span>
                 </div>
             </div>
-            <img src={clouds} alt="bottom/cloud" className='w-full absolute top-0 left-0 -translate-y-1/2' />
-            <img src={clouds} alt="bottom/cloud" className='w-full absolute top-[-11px] left-0 -translate-y-1/2' />
+            <img src={clouds} alt="bottom/cloud" className='w-full absolute top-0 left-0 -translate-y-1/2 pointer-events-none' />
+            <img src={clouds} alt="bottom/cloud" className='w-full absolute top-[-11px] left-0 -translate-y-1/2 pointer-events-none' />
         </div>
     );
 };
