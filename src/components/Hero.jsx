@@ -16,7 +16,7 @@ const Hero = () => {
                         <p className='font-normal text-base leading-6 text-white max-w-[524px] md:my-6 my-4         '>
                             An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions
                         </p>
-                        <a href="/" className='font-bold text-lg text-white leading-5 underline'>
+                        <a href="/" className='font-bold text-lg text-white leading-5 border-b-[1.5px]'>
                             Audited by Omniscia
                         </a>
                     </div>

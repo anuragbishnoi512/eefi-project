@@ -32,7 +32,7 @@ const Header = () => {
             e.preventDefault();
         }
     };
-    return (
+    return ( 
         <>
             <div className='container relative z-[2]'>
                 <div className={`${!show ? "min-h-screen" : ""} `}>
