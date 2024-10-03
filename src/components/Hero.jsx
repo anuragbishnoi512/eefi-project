@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className='relative pb-24 lg:pb-0'>
             <img className='max-w-[1210px] w-full absolute right-2 bottom-0' src={heroBg} alt="background/image" />
-{/*             hlo */}
+{/*hlo */}
             <img className='absolute -top-4 left-0 xl:max-w-[1160px] lg:max-w-[900px] object-cover lg:h-[750px] xl:h-[810px] h-[650px] max-md:object-cover md:w-full 2xl:hidden block' src={heroVector} alt="#" />
             <Header />
             <div className='container mb-20 pb-20 lg:pb-0 lg:mb-0 relative'>
@@ -31,6 +31,7 @@ const Hero = () => {
                 <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
                 <span className='w-2.5 h-2.5 bg-dark-blue rounded-full flex'></span>
             </div>
+{/* use map */}
             <img className='absolute -top-12 left-[-124px] h-[810px] w-[80%] 2xl:block hidden' src={heroVector} alt="heroVector" />
         </div>
     )
